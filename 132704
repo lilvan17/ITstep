@@ -1,0 +1,11 @@
+function CREATE_DATA_BASE() {
+  const db = [];
+
+  return {
+    showAll: () => console.log(db)
+  };
+}
+
+const dataBase1 = CREATE_DATA_BASE();
+
+dataBase1.showAll();
